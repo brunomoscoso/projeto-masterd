@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 400px) and (max-width: 688px) {
+    header {
+        display:flex;
+        flex-flow:column-reverse;
+        
+    }
+    #dropdow{
+        display: flex;
+        align-items: center;
+    }
+    #imagem01{
+        background-image: url("../imagem/fotocapamedia.jpg");
+        background-size: contain;
+        background-position: center;
+        background-color: black;
+        position: static;
+    }
+    #biografia{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        padding: 0;
+
+    
+    }
+    #titulobiografia{
+        text-align: justify;
+        font-size: 37px;
+    }
+   #paragrafobiografia{
+    width: 80vw;
+    padding-top: 10px;
+    padding: 0;
+    font-size: 15px;
+    
+   }
+   #imagem02{
+    height: 550px;
+    padding: 30px;
+   }
+   #interlude{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        
+   }
+   #interludeh1{
+    font-size: 25px;
+    text-align: center;
+   }
+   #discografia1{
+    display: flex;
+    flex-flow: column;
+   }
+   #discografiah1{
+    padding: 50px;
+    font-size: 37px;
+    }
+  
+   .cd{
+    display: flex;
+    flex-flow: column-reverse;
+    align-items: center;
+   }
+   .tituloalbum{
+    font-size: 20px;
+   }
+   .paragrafocd{
+    width: 80vw;
+    font-size: 15px;
+   }
+  .imagemcd{
+    margin: 0;
+    padding-bottom: 60px;
+    
+   }
+  #areavenda{
+    display: flex;
+    flex-flow: column;
+    padding: 90px;
+    margin-top: -90px;
+   }
+   .vendacd{
+    margin-top: 25px;
+
+   }
+   #contatos{
+    display: flex;
+    flex-flow: column;
+   }
+ .infcontatos{
+    font-size: 16px;
+ }
+   
+}
