@@ -91,6 +91,9 @@
     display: flex;
     flex-flow: column;
    }
+   #informacao2{
+    padding: 10px;
+   }
  .infcontatos{
     font-size: 14px;
  }
