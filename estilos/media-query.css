@@ -77,6 +77,7 @@
     
    }
   #areavenda{
+    background-color: white;
     display: flex;
     flex-flow: column;
     padding: 90px;
@@ -91,12 +92,12 @@
     flex-flow: column;
    }
  .infcontatos{
-    font-size: 16px;
+    font-size: 14px;
  }
  #mb-1{
-    width: 60vw;
+    width: 80vw;
  }
  .mb-3{
-    width: 60vw;
+    width: 80vw;
  }
 }
