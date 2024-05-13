@@ -91,8 +91,8 @@
     display: flex;
     flex-flow: column;
    }
-   #informacao2{
-    padding: 10px;
+   #informacoes2{
+    padding-top: 20px;
    }
  .infcontatos{
     font-size: 14px;
