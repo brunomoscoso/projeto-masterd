@@ -93,8 +93,10 @@
  .infcontatos{
     font-size: 16px;
  }
- #informacoes1{
-    width: 200px;
+ #mb-1{
+    width: 60vw;
  }
-   
+ .mb-3{
+    width: 60vw;
+ }
 }
