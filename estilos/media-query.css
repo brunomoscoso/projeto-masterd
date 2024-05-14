@@ -114,5 +114,60 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-    
+    #imagem01{
+        background-image: url("../imagem/fotocapamedia.jpg");
+        background-size: auto;
+        height: 70vh;
+    }
+    #biografia{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        padding-top: 130px;
+    }
+    #titulobiografia{
+        text-align: center;
+        font-size: 48px;
+        padding-bottom: 30px;
+    }
+    #paragrafobiografia{
+        width: 80vw;
+        padding-top: 10px;
+        padding: 0;
+        font-size: 24px;
+    }
+    #imagem02{
+        height: 680px;
+        width: 450px;
+        padding: 35px;
+    }
+    #discografia1{
+        display: flex;
+        flex-flow: column;
+        padding-top: 0px;
+    }
+    #discografiah1{
+        padding: 30px;
+        font-size: 48px;
+        
+    }
+    .cd{
+        display: flex;
+        flex-flow: column-reverse;
+        align-items: center;
+    }
+    .tituloalbum{
+        font-size: 35px;
+    }
+    .paragrafocd{
+        width: 80vw;
+        font-size: 24px;
+    }
+    .imagemcd{
+        margin: 0;
+        padding-bottom: 60px;
+        height: 420px;
+        width: 390px;
+        
+    }
 }
