@@ -291,11 +291,30 @@ header{
 footer{
     background-color: rgb(255, 255, 255);
     display: flex;
-    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+    height: 10vh;
     
   
 }
 .redessociais{
-   padding: 5px;
-   
+   padding: 12px;
+}
+.iconeredes{
+    padding: 10px;
+}
+.iconeredes:hover{
+    background-color: rgba(157, 157, 157, 0.134);
+    border-radius: 50px;
+}
+#powered{
+    font-family: "Cinzel", serif;
+    font-size: 12px;
+}
+#poweredbruno{
+    text-decoration: none;
+    color: black;
+}
+#poweredbruno:hover{
+    text-decoration: overline;
 }
