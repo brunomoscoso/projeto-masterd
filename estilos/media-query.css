@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 360px) and (max-width: 932px) {
+@media screen and (min-width: 360px) and (max-width: 768px) {
     
     header {
         display:flex;
@@ -111,4 +111,8 @@
  .mb-3{
     width: 80vw;
  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    
 }
