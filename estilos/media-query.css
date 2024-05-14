@@ -6,12 +6,14 @@
         display:flex;
         flex-flow:column-reverse;
         background-color: black;
+
         
     }
-    #dropdow{
-        display: flex;
-        align-items: center;
+
+    #linkhome{
+        font-size: 23px;
     }
+    
     #imagem01{
         background-image: url("../imagem/destinys-child-2002-1516643614.jpg");
         background-size: auto ;
