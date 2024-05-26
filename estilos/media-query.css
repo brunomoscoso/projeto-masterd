@@ -9,7 +9,13 @@
 
         
     }
-    
+    #button_search{
+        height: 30px;
+        padding:3px;
+    }
+    #barra_pesquisa{
+        height: 30px; 
+    }
     #imagem01{
         background-image: url("../imagem/destinys-child-2002-1516643614.jpg");
         background-size: auto;
@@ -112,6 +118,9 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+    #barra_pesquisa{
+        width: 20vw; 
+    }
     #imagem01{
         background-image: url("../imagem/fotocapamedia.jpg");
         background-size: auto;

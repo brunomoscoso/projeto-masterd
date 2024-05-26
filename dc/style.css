@@ -4,35 +4,56 @@
 
 * {
     margin: 0;
-    padding: 0;
-    
-    
+    padding: 0;  
 }
 body{
     overflow-x: hidden;
 }
-
 header{
-    
     background-color: black;
     padding: 10px; 
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
     z-index: 1;
-
+}
+#nav{
+    display: flex;
+    font-family: "Cinzel", serif;
+    
+}
+.form-inline{
+   padding: 7px;
+}
+#button_search{
+    margin-left: 8px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(225, 216, 216, 0.266);
+    color: white;
+    box-shadow: 1px 1px 1px rgba(181, 180, 180, 0.307);
+}
+#button_search:hover{
+    background-color: rgba(255, 255, 255, 0.747);
+    color: black;
+    padding: 4px;
+}
+#barra_pesquisa{
+    width: 40vw;
+    height: 35px;
+    background-color: rgba(250, 250, 250, 0.682);
+    border-color: black 
 }
 #linkhome{
     text-decoration: none;
     font-family:"Cinzel", serif;
     font-size:30px;
-    padding: 4px;
+    padding: 8px;
     color: white;
 }
 #linkhome:hover{
@@ -51,37 +72,28 @@ header{
     font-family:"Cinzel", serif;
     font-size: 20px;
 }
-
 #dropdown-menu1{
     background-color: rgba(250, 250, 250, 0.978);
-    font-family: "Cinzel", serif;
-    
+    font-family: "Cinzel", serif; 
 }
-
 #titulo{
     color: white;
     font-family: "Cinzel", serif;
 }
-
 #biografia {
     background-color: black;
     text-align: justify;
     width: 100vw;
-    padding: 80px;
-    
+    padding: 80px;   
     display: flex;
 }
-
-
 #imagem01{
     background-image: url("../imagem/GettyImages-72521671-1920x1263.jpg");
     background-repeat:no-repeat;
     background-position: top;
     width: 100vw;
     height: 129vh;
-    background-size: cover;
-    
-
+    background-size: cover;  
 }
 #titulobiografia{
     text-align: center;
@@ -90,7 +102,6 @@ header{
     color: white;
     font-family:  "Cinzel", serif;
     font-size: 53px;
-
 }
 #paragrafobiografia{
     width: 60vw;
@@ -100,22 +111,18 @@ header{
     letter-spacing: 1.9px;
     font-family: 'Times New Roman', Times, serif;
 }
-
 #imagem02{
     width: 390px;
     height: 580px;
 }
-
 #interlude{
     padding: 50px;
-    background-color: rgba(211, 211, 211, 0.134);
-   
+    background-color: rgba(211, 211, 211, 0.134);  
 }
 #interludeh1{
     font-family:  "Cinzel", serif;
     text-align: center;
 }
-
 #discografia1{
     background-color: black;
     color: white;
@@ -123,10 +130,7 @@ header{
     display: flex;
     flex-flow: column;
     flex-wrap: wrap;
-
-    
 }
-
 #discografiah1{
     text-align: center;
     padding-top: 30px;
@@ -136,16 +140,13 @@ header{
 }
 .tituloalbum{
     padding: 10px;
-    font-family:  "Cinzel", serif;
-    
+    font-family:  "Cinzel", serif; 
 }
 .cd{
     display: flex;
     justify-content: center;
     padding: 60px;
- 
 }
-
 .paragrafocd{
     width: 50vw;
     font-size: 18px;
@@ -157,17 +158,13 @@ header{
    width: 350px;
    height: 350px;
 }
-
 #areavenda{
     background-color: white;
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 170px;
-    margin-top: -50px;
-   
-   
+    margin-top: -50px;   
 }
-
 #storeh1{
     background-color: white;
     color: black;
@@ -175,12 +172,8 @@ header{
     font-weight: bolder;
     text-align: center;
     margin-bottom: 0.2em;
-    padding: 85px;
-   
-    
+    padding: 85px; 
 }   
-
-
 .imagemcdvenda{
     width: 200px;
     height: 200px;
@@ -189,13 +182,11 @@ header{
     flex-flow: column;
     margin-top: 25px;
 }
-
 .imagemcdvenda:hover{
     padding: 3px;
     transition: 0.2s;
     box-shadow: 3px 3px 3px  rgba(0, 0, 0, 0.355);
 }
-
 .vendacd{
     padding: 20px;
     display: flex;
@@ -217,7 +208,6 @@ header{
     padding: 10px;
     transition: 0.2s;
 }
-
 #contatos{
     background-color: black;
     padding: 50px;
@@ -231,18 +221,14 @@ header{
     background-color: black;
     padding: 12px;
 }
-
 #mb-1{
     color: white;
     font-family: "Cinzel", serif;
     display: flex;
     flex-flow: column;
     width: 400px;
-    padding-bottom: 5px;
-   
-    
+    padding-bottom: 5px;   
 }
-
 #botaoenviar{
     color: black;
     border-radius: 10px;
@@ -252,7 +238,7 @@ header{
     font-family: "Cinzel", serif;
     font-weight: bold;
     box-shadow: 3px 3px 3px  rgba(255, 255, 255, 0.181);
-    
+   
 }
 #botaoenviar:hover{
     background-color: rgb(157, 155, 155);
@@ -272,30 +258,24 @@ header{
     color: white;
     margin-right: 100px;
     font-family: "Cinzel", serif;
-
- }
+}
 #informacoes2{
     font-family: "Cinzel", serif;
     color: white;
     display: inline;
     font-size: 18px;
     padding: 40px;
- 
 }
-
 .infcontatos{
     padding: 10px;
     display: flex;
 }
-
 footer{
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    height: 14vh;
-    
-  
+    height: 14vh; 
 }
 .redessociais{
    padding: 12px;
