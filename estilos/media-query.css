@@ -15,14 +15,15 @@
     }
     #barra_pesquisa{
         height: 30px;
-        width: 20vw; 
+        width: 20vw;
+        font-size: 11px; 
     }
     #imagem01{
         background-image: url("../imagem/destinys-child-2002-1516643614.jpg");
         background-size: auto;
         background-position: bottom;
         background-color: black;
-        height: 110vh;
+        height: 90vh;
     
     }
     #biografia{
