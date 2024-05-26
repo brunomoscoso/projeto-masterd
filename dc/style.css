@@ -28,7 +28,8 @@ header{
     
 }
 .form-inline{
-   padding: 7px;
+   padding: 8px;
+   margin-left: 30px;
 }
 #button_search{
     margin-left: 8px;
